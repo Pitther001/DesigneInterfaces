@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina do Trabalho</title>
+</head>
+<body>
+
+    <header>
+        <h1>Trabalho Design de Interfaces</h1>
+        <p>Aqui é apenas um <i>Texto</i> para exemplicar a <b>funcionalidade</b> das escritas dentro de uma pagina.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Menu</li>
+            <li>Principal</li>
+            <li>Produtos</li>
+            <li>Serviços</li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+
+    <main>
+        <ol>
+            <li>
+                Frutas
+                <ul>
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ul>
+            </li>
+            <li>
+                Legumes
+                <ul>
+                    <li>Cebola</li>
+                    <li>Pimentão</li>
+                </ul>
+            </li>
+            <li>
+                Cereais
+                <ul>
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ul>
+            </li>
+        </ol>
+
+        <table>
+            <caption>Lucro por Mês</caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Frutas - Banana</th>
+                    <th>Frutas - Maçã</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <a href="https://ifrs.edu.br/riogrande/">
+            <img src="IMG/IFRS.png">
+        </a>
+
+        <a href="https://sites.riogrande.ifrs.edu.br/tads">
+            <figure>
+                <img src="IMG/tads.png" alt="TADS">
+                <figcaption>Tecnologia em Análise e Desnsenvolvimento de Sistemas</figcaption>
+            </figure>
+        </a>
+
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10}" placeholder="Apenas números" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" minlength="8" required>
+
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFICdvcRm0Q"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+    </main>
+
+
+    <footer>
+        <address>
+            <p>Razão Social: Qualquer Coisa LTDA - CNPJ: 12.345.678/0001-90</p>
+            <p>Endereço: Rua dos Bobos, 000 - Algum Lugar - LN</p>
+            <p>Telefone: (77) 3456-7890 - Email: contato@qualquercoisa.com</p>
+        </address>
+        <p>&copy; 2024 Qualquer Coisa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
